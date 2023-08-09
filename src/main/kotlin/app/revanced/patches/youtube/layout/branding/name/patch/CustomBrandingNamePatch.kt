@@ -58,7 +58,7 @@ class CustomBrandingNamePatch : ResourcePatch {
         var YouTubeAppName: String? by option(
             PatchOption.StringOption(
                 key = "YouTubeAppName",
-                default = "ReVanced Extended",
+                default = "YouTube UnGoogled",
                 title = "Application Name of YouTube",
                 description = "The name of the YouTube it will show on your home screen."
             )

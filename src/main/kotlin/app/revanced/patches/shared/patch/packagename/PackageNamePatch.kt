@@ -30,7 +30,7 @@ class PackageNamePatch : ResourcePatch {
         internal var YouTubePackageName: String? by option(
             PatchOption.StringOption(
                 key = "YouTubePackageName",
-                default = "app.rvx.android.youtube",
+                default = "com.ungoogled.android.youtube",
                 title = "Package Name of YouTube",
                 description = "The package name of the YouTube. (NON-ROOT user only)"
             )
@@ -42,7 +42,7 @@ class PackageNamePatch : ResourcePatch {
         internal var MusicPackageName: String? by option(
             PatchOption.StringOption(
                 key = "MusicPackageName",
-                default = "app.rvx.android.apps.youtube.music",
+                default = "com.ungoogled.android.apps.youtube.music",
                 title = "Package Name of YouTube Music",
                 description = "The package name of the YouTube Music. (NON-ROOT user only)"
             )

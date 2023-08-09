@@ -58,7 +58,7 @@ class CustomBrandingNamePatch : ResourcePatch {
         var MusicLongName: String? by option(
             PatchOption.StringOption(
                 key = "MusicLongName",
-                default = "ReVanced Extended Music",
+                default = "YouTube Music UnGoogled",
                 title = "Application Name of YouTube Music",
                 description = "The name of the YouTube Music it will show on your notification panel."
             )
@@ -66,7 +66,7 @@ class CustomBrandingNamePatch : ResourcePatch {
         var MusicShortName: String? by option(
             PatchOption.StringOption(
                 key = "MusicShortName",
-                default = "RVX Music",
+                default = "YT Music UnGoogled",
                 title = "Application Name of YouTube Music",
                 description = "The name of the YouTube Music it will show on your home screen."
             )
